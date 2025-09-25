@@ -14,3 +14,12 @@ To start:
 Create a MusicOrganizer object on the object bench.
 Use its methods to add, remove, and play files.
 
+**ANSWERS**
+Daniel CL and Nathaniel B
+
+18. public void listAllFiles()
+
+19. no, because there would be an infinite amount of println statements as there
+is no limit to the amount of files that can be added
+
+20. 

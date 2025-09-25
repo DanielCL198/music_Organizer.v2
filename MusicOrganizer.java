@@ -74,7 +74,18 @@ public class MusicOrganizer
         String filename = files.get(index);
         player.startPlaying(filename);
     }
+    
+         public void listAllFiles()
+    {
+        int index = 0;
+        while (index < files.size()){
+            String filename = files.get(index);
+            System.out.println(filename);
+            index++;
 
+        }
+    }
+    
     /**
      * Stop the player.
      */
